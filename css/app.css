@@ -7,11 +7,11 @@ html, body {
 
 iframe {
   position: absolute;
-  top: 24px;
-  left: 167px;
+  top: 100px;
+  left: 250px;
   width: 375px;
-  height: 662px;
-  -webkit-transform: scale(0.674);
+  height: 673px;
+  -webkit-transform: scale(0.815);
 
   background-color:#1695A3;
   background-image: linear-gradient(rgba(255,255,255,.3) 2px, transparent 2px),
@@ -22,12 +22,18 @@ iframe {
   background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
 }
 
+/* disables highlighting */
+::selection {
+    background-color: Transparent;
+    color :#000;
+}
+
 #iphone {
   position: absolute;
-  top: -30px;
-  left: 0px;
-  width: 500px;
-  height: 730px;
+  top: -60px;
+  left: 245px;
+  height: 900px;
+  width: 620px;
   background-image: url(iphone.png);
   background-size: cover;
 }
